@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07974E895096F49755D07B7B /* Pods_TemuMetu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0872EA72F3BBAEC5A5ED056 /* Pods_TemuMetu.framework */; };
+		11354FC72272BC1E00C0D1DE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11354FC62272BC1E00C0D1DE /* ProfileViewController.swift */; };
+		11FD75262271F46D0077B5F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD75252271F46D0077B5F2 /* AppDelegate.swift */; };
+		11FD75282271F46D0077B5F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD75272271F46D0077B5F2 /* ViewController.swift */; };
+		11FD752B2271F46D0077B5F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FD75292271F46D0077B5F2 /* Main.storyboard */; };
+		11FD752D2271F46E0077B5F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FD752C2271F46E0077B5F2 /* Assets.xcassets */; };
+		11FD75302271F46E0077B5F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FD752E2271F46E0077B5F2 /* LaunchScreen.storyboard */; };
+		11FD7538227208FC0077B5F2 /* OTPVerificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD7537227208FC0077B5F2 /* OTPVerificationController.swift */; };
+		11FD753B227210400077B5F2 /* ContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD753A227210400077B5F2 /* ContactListController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11354FC62272BC1E00C0D1DE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		11354FC8227481F300C0D1DE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		11FD75222271F46D0077B5F2 /* TemuMetu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemuMetu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FD75252271F46D0077B5F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11FD75272271F46D0077B5F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11FD752A2271F46D0077B5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11FD752C2271F46E0077B5F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11FD752F2271F46E0077B5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11FD75312271F46E0077B5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FD7537227208FC0077B5F2 /* OTPVerificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationController.swift; sourceTree = "<group>"; };
+		11FD753A227210400077B5F2 /* ContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListController.swift; sourceTree = "<group>"; };
+		522F131EAFC3F57595701B8C /* Pods-TemuMetu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemuMetu.debug.xcconfig"; path = "Target Support Files/Pods-TemuMetu/Pods-TemuMetu.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0621A5B26AFCA544839941 /* Pods-TemuMetu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemuMetu.release.xcconfig"; path = "Target Support Files/Pods-TemuMetu/Pods-TemuMetu.release.xcconfig"; sourceTree = "<group>"; };
+		E0872EA72F3BBAEC5A5ED056 /* Pods_TemuMetu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemuMetu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FD751F2271F46D0077B5F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07974E895096F49755D07B7B /* Pods_TemuMetu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FD75192271F46D0077B5F2 = {
+			isa = PBXGroup;
+			children = (
+				11354FC8227481F300C0D1DE /* README.md */,
+				11FD75242271F46D0077B5F2 /* TemuMetu */,
+				11FD75232271F46D0077B5F2 /* Products */,
+				441E367646BB178679EA1F52 /* Pods */,
+				FA7180669D3C9074F8D9F672 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11FD75232271F46D0077B5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FD75222271F46D0077B5F2 /* TemuMetu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FD75242271F46D0077B5F2 /* TemuMetu */ = {
+			isa = PBXGroup;
+			children = (
+				11FD7539227209060077B5F2 /* Controller */,
+				11FD75252271F46D0077B5F2 /* AppDelegate.swift */,
+				11FD75272271F46D0077B5F2 /* ViewController.swift */,
+				11FD75292271F46D0077B5F2 /* Main.storyboard */,
+				11FD752C2271F46E0077B5F2 /* Assets.xcassets */,
+				11FD752E2271F46E0077B5F2 /* LaunchScreen.storyboard */,
+				11FD75312271F46E0077B5F2 /* Info.plist */,
+			);
+			path = TemuMetu;
+			sourceTree = "<group>";
+		};
+		11FD7539227209060077B5F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11FD7537227208FC0077B5F2 /* OTPVerificationController.swift */,
+				11FD753A227210400077B5F2 /* ContactListController.swift */,
+				11354FC62272BC1E00C0D1DE /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		441E367646BB178679EA1F52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				522F131EAFC3F57595701B8C /* Pods-TemuMetu.debug.xcconfig */,
+				8A0621A5B26AFCA544839941 /* Pods-TemuMetu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA7180669D3C9074F8D9F672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0872EA72F3BBAEC5A5ED056 /* Pods_TemuMetu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FD75212271F46D0077B5F2 /* TemuMetu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FD75342271F46E0077B5F2 /* Build configuration list for PBXNativeTarget "TemuMetu" */;
+			buildPhases = (
+				FFD2911DE946BC9AC0797D44 /* [CP] Check Pods Manifest.lock */,
+				11FD751E2271F46D0077B5F2 /* Sources */,
+				11FD751F2271F46D0077B5F2 /* Frameworks */,
+				11FD75202271F46D0077B5F2 /* Resources */,
+				1A50D6772E945072D459D842 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemuMetu;
+			productName = TemuMetu;
+			productReference = 11FD75222271F46D0077B5F2 /* TemuMetu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FD751A2271F46D0077B5F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Daniel Aditya Istyana";
+				TargetAttributes = {
+					11FD75212271F46D0077B5F2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 11FD751D2271F46D0077B5F2 /* Build configuration list for PBXProject "TemuMetu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11FD75192271F46D0077B5F2;
+			productRefGroup = 11FD75232271F46D0077B5F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FD75212271F46D0077B5F2 /* TemuMetu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FD75202271F46D0077B5F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FD75302271F46E0077B5F2 /* LaunchScreen.storyboard in Resources */,
+				11FD752D2271F46E0077B5F2 /* Assets.xcassets in Resources */,
+				11FD752B2271F46D0077B5F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A50D6772E945072D459D842 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TemuMetu/Pods-TemuMetu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlagPhoneNumber/FlagPhoneNumber.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlagPhoneNumber.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TemuMetu/Pods-TemuMetu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD2911DE946BC9AC0797D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TemuMetu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FD751E2271F46D0077B5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FD75282271F46D0077B5F2 /* ViewController.swift in Sources */,
+				11FD7538227208FC0077B5F2 /* OTPVerificationController.swift in Sources */,
+				11354FC72272BC1E00C0D1DE /* ProfileViewController.swift in Sources */,
+				11FD753B227210400077B5F2 /* ContactListController.swift in Sources */,
+				11FD75262271F46D0077B5F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11FD75292271F46D0077B5F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FD752A2271F46D0077B5F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11FD752E2271F46E0077B5F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FD752F2271F46E0077B5F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FD75322271F46E0077B5F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11FD75332271F46E0077B5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FD75352271F46E0077B5F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522F131EAFC3F57595701B8C /* Pods-TemuMetu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemuMetu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityadaniel.TemuMetu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11FD75362271F46E0077B5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0621A5B26AFCA544839941 /* Pods-TemuMetu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemuMetu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityadaniel.TemuMetu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FD751D2271F46D0077B5F2 /* Build configuration list for PBXProject "TemuMetu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FD75322271F46E0077B5F2 /* Debug */,
+				11FD75332271F46E0077B5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FD75342271F46E0077B5F2 /* Build configuration list for PBXNativeTarget "TemuMetu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FD75352271F46E0077B5F2 /* Debug */,
+				11FD75362271F46E0077B5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FD751A2271F46D0077B5F2 /* Project object */;
+}
